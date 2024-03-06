@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnaga Water Beach Resort Reservation</title>
+
+    <link rel="stylesheet" href="..\styles/main-styles.css">
+</head>
+<body>
+    <div class="wrapper1">
+        <header>
+            <h1><span style="color: black;"> Book Now.</span></h1>
+   
+        </header>
+        <nav>
+            <a href="..\index.html">Home</a> &nbsp;
+            <a href="cottages.html">Cottages</a> &nbsp;
+            <a href="Roomrates.html">Room Rates</a> &nbsp;
+            <a href="Reservations.html">Reservations</a> &nbsp;
+            <a href="AboutUs.html">About Us</a> &nbsp;
+        </nav>
+    
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="adults">Room Number:</label>
+        <input type="number" id="adults" min="1" required>
+        <br>
+        <label for="children">Cottage Number:</label>
+        <input type="number" id="children" min="0" required>
+        <br>
+        <div class="input-box">
+            <label for="client_notes">Notes:</label>
+          <textarea name="client_notes" id="" cols="30" rows="10"></textarea>
+            </div>  
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" required>
+        <br>
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" required>
+        <br>
+        <button type="submit">Book Now</button>
+    </form>
+        <footer>
+        <p>
+            <em>
+                &copy;2024 Magnaga Water Beach Resort. All rights Reserved.
+                <strong><a href="https://www.facebook.com/magnagawaters">magnagawaters@yahoo.com</a></strong>
+            </em>
+        </p>
+        </footer>
+    </div>
+ </body>
+</html>
